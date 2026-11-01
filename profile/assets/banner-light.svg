@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-label="Mumcord: your Mumble server, finally cosy">
+  <title>Mumcord</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7f3ff"/><stop offset="1" stop-color="#e8defd"/></linearGradient>
+    <radialGradient id="g1" cx="190" cy="200" r="300" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b9a4ff" stop-opacity=".45"/><stop offset="1" stop-color="#b9a4ff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2" cx="1100" cy="330" r="320" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc2b8" stop-opacity=".35"/><stop offset="1" stop-color="#ffc2b8" stop-opacity="0"/></radialGradient>
+    <linearGradient id="strip" x1="0" x2="1"><stop offset="0" stop-color="#8f55f5"/><stop offset=".35" stop-color="#8b6cff"/><stop offset=".65" stop-color="#ff9a8b"/><stop offset="1" stop-color="#ffb35c"/></linearGradient>
+    <linearGradient id="wave" x1="0" x2="1"><stop offset="0" stop-color="#8b6cff"/><stop offset="1" stop-color="#ff9a8b"/></linearGradient>
+    <clipPath id="tile"><rect x="76" y="83" width="234" height="234" rx="50"/></clipPath>
+    <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#140a3a" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#g1)"/>
+  <rect width="1280" height="400" fill="url(#g2)"/>
+  <g fill="none" stroke="#8b6cff" stroke-opacity=".18" stroke-width="2">
+    <circle cx="1090" cy="190" r="120"/><circle cx="1090" cy="190" r="165"/><circle cx="1090" cy="190" r="210"/>
+  </g>
+  <g filter="url(#sh)"><rect x="76" y="83" width="234" height="234" rx="50" fill="#1d0f5c"/>
+    <image x="69" y="76" width="248" height="248" xlink:href="mumcord-icon.png" href="mumcord-icon.png" clip-path="url(#tile)" preserveAspectRatio="xMidYMid slice"/></g>
+  <g font-family="Fira Sans, Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="350" y="188" font-size="96" font-weight="700" letter-spacing="-2" fill="#1d0f5c">Mumcord</text>
+    <text x="354" y="242" font-size="31" font-weight="500" fill="#5b3fd6">Your Mumble server. Finally cosy.</text>
+    <text x="354" y="285" font-size="20" font-weight="400" fill="#6a5c9c">A modern client for any standard Mumble server.</text>
+  </g>
+  <g transform="translate(990 84)">
+    <path d="M0 22a22 22 0 0 1 22-22h128a22 22 0 0 1 22 22v40a22 22 0 0 1-22 22H44l-22 18v-18a22 22 0 0 1-22-22z" fill="#8b6cff"/>
+    <circle cx="58" cy="42" r="7" fill="#ffffff"/><circle cx="86" cy="42" r="7" fill="#ffffff"/><circle cx="114" cy="42" r="7" fill="#ffffff"/>
+  </g>
+  <g transform="translate(1062 150)">
+    <path d="M0 20a20 20 0 0 1 20-20h120a20 20 0 0 1 20 20v34a20 20 0 0 1-20 20h-2v16l-20-16H20a20 20 0 0 1-20-20z" fill="#ff9a8b"/>
+    <rect x="22" y="22" width="96" height="9" rx="4.5" fill="#ffffff" fill-opacity=".95"/><rect x="22" y="42" width="64" height="9" rx="4.5" fill="#ffffff" fill-opacity=".75"/>
+  </g>
+  <g fill="url(#wave)" opacity=".9" transform="translate(4 18)"><rect x="960" y="293.0" width="8" height="14" rx="4"/><rect x="976" y="285.0" width="8" height="30" rx="4"/><rect x="992" y="274.0" width="8" height="52" rx="4"/><rect x="1008" y="263.0" width="8" height="74" rx="4"/><rect x="1024" y="277.0" width="8" height="46" rx="4"/><rect x="1040" y="256.0" width="8" height="88" rx="4"/><rect x="1056" y="270.0" width="8" height="60" rx="4"/><rect x="1072" y="283.0" width="8" height="34" rx="4"/><rect x="1088" y="265.0" width="8" height="70" rx="4"/><rect x="1104" y="279.0" width="8" height="42" rx="4"/><rect x="1120" y="288.0" width="8" height="24" rx="4"/><rect x="1136" y="294.0" width="8" height="12" rx="4"/></g>
+  <rect y="394" width="1280" height="6" fill="url(#strip)"/>
+</svg>
