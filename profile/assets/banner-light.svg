@@ -6,7 +6,6 @@
     <radialGradient id="g2" cx="1100" cy="330" r="320" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffc2b8" stop-opacity=".35"/><stop offset="1" stop-color="#ffc2b8" stop-opacity="0"/></radialGradient>
     <linearGradient id="strip" x1="0" x2="1"><stop offset="0" stop-color="#8f55f5"/><stop offset=".35" stop-color="#8b6cff"/><stop offset=".65" stop-color="#ff9a8b"/><stop offset="1" stop-color="#ffb35c"/></linearGradient>
     <linearGradient id="wave" x1="0" x2="1"><stop offset="0" stop-color="#8b6cff"/><stop offset="1" stop-color="#ff9a8b"/></linearGradient>
-    <clipPath id="tile"><rect x="76" y="83" width="234" height="234" rx="50"/></clipPath>
     <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#140a3a" flood-opacity=".35"/></filter>
   </defs>
   <rect width="1280" height="400" fill="url(#bg)"/>
@@ -15,8 +14,7 @@
   <g fill="none" stroke="#8b6cff" stroke-opacity=".18" stroke-width="2">
     <circle cx="1090" cy="190" r="120"/><circle cx="1090" cy="190" r="165"/><circle cx="1090" cy="190" r="210"/>
   </g>
-  <g filter="url(#sh)"><rect x="76" y="83" width="234" height="234" rx="50" fill="#1d0f5c"/>
-    <image x="69" y="76" width="248" height="248" xlink:href="mumcord-icon.png" href="mumcord-icon.png" clip-path="url(#tile)" preserveAspectRatio="xMidYMid slice"/></g>
+  <image x="76" y="83" width="234" height="234" href="mumcord-icon.svg" filter="url(#sh)"/>
   <g font-family="Fira Sans, Segoe UI, Helvetica, Arial, sans-serif">
     <text x="350" y="188" font-size="96" font-weight="700" letter-spacing="-2" fill="#1d0f5c">Mumcord</text>
     <text x="354" y="242" font-size="31" font-weight="500" fill="#5b3fd6">Your Mumble server. Finally cosy.</text>

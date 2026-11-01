@@ -22,7 +22,7 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="assets/mumcord-icon.png" alt="" width="64" align="left">
+      <img src="assets/mumcord-icon.svg" alt="" width="64" align="left">
       <b><a href="https://github.com/Mumcord/mumcord">Mumcord</a></b><br>
       <sub>The desktop app</sub>
       <br clear="left">
